@@ -1,0 +1,17 @@
+A list beépitett konverziós fgv, megpróbál bármit listává alakítani
+Pl.:
+xs = list("Mocsári Béka")
+print(xs)
+
+['M', 'o', 'c', 's', 'á', 'r', 'i', ' ', 'B', 'é', 'k', 'a']
+
+https://gyires.inf.unideb.hu/EFOP344/PythonHTML/lists.html
+
+
+A Python map () egy beépített függvény, amely függvényt alkalmaz az iterátor bemenetként megadott összes elemére. Például az iterátor lehet lista, duplázás, karakterlánc stb., És iterálható térképobjektumot ad vissza.
+
+Pl.: 
+my_list = [2.6743,3.63526,4.2325,5.9687967,6.3265,7.6988,8.232,9.6907]
+updated_list = map(round, my_list)
+print(updated_list)
+print(list(updated_list))
