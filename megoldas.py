@@ -1,5 +1,5 @@
 #0. feladat A hianyzasok.txt beolvasásása listában listákba
-
+#állománybeolvasás kész
 hianyzasok=[]
 with open("./adatok/hianyzasok.txt","r",encoding="utf8") as fm:
     for sor in fm:
