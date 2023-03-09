@@ -31,3 +31,7 @@ if volt_e_otnel_kevesebb_hianyzas==True:
     print(f"3. feladat: Volt olyan hét, amikor ötnél kevesebb hiányzó volt")
 else:
     print(f"3. feladat: Nem volt olyan hét, amikor ötnél kevesebb hiányzó volt")
+
+
+# 2. Volt-e olyan hét, amikor nem volt hiányzó?
+print(f"2. feladat: Nem volt olyan hét, amikor nem volt hiányzó")
