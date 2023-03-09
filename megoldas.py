@@ -47,11 +47,11 @@ max_i=0
 for i in range(1,len(hianyzasok)):
     if sum(hianyzasok[max_i])<sum(hianyzasok[i]):
         max_i=i
-index=0
-while not (sum(hianyzasok[index])==sum(hianyzasok[max_i])):
-    index+=1
+# index=0
+# while not (sum(hianyzasok[index])==sum(hianyzasok[max_i])):
+#     index+=1
 
-print(f"4. feladat: A legtöbb hiányzás a {index+1}. héten volt ({sum(hianyzasok[max_i])} óra)")
+print(f"4. feladat: A legtöbb hiányzás a {max_i+1}. héten volt ({sum(hianyzasok[max_i])} óra)")
 
 # 5. Hányadik héten volt egyetlen hiányzás?
 
