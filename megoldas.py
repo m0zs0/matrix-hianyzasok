@@ -10,5 +10,5 @@ with open("./adatok/hianyzasok.txt","r",encoding="utf-8") as fm:
         # hianyzasok.append(l)
         hianyzasok.append(list(map(int, seged_lista)))
 
-print("a beolvasott mátrix.")
+print("a beolvasott mátrix: ")
 print(hianyzasok)
