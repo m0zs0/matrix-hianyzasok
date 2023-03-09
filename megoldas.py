@@ -60,3 +60,7 @@ else:
     print(f"5. feladat: egyik héten sem volt egyetlen hiányzás")
 
 
+# 5. Hányadik héten volt egyetlen hiányzás?
+
+# 2. Volt-e olyan hét, amikor nem volt hiányzó?
+print(f"2. feladat: Nem volt olyan hét, amikor nem volt hiányzó")
